@@ -5,18 +5,28 @@
 }
 
 .menu {
-  background-color: #2B2B3E;
   padding: 15px 0;
+  background: #2B2B3E;
 }
 .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
   text-align: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.menu ul button {
+  margin: 6em;
+  align-items: center;
 }
 .menu ul li {
-  display: inline-block;
+  align-items: center;
   margin-right: 20px;
+}
+.menu ul li img {
+  height: 8em;
 }
 .menu ul li a {
   text-decoration: none;

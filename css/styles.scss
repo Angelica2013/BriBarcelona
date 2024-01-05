@@ -3,24 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+$color-azul: #2B2B3E;
+$color-amarillo: #E49E48;
+$color-cielo: #00ABE3;
+
 
 
 .menu {
-    background-color:#2B2B3E ;
     padding: 15px 0;
+    background: $color-azul;
 
-    
+
 
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
+        display: flex;
         text-align: center;
+        justify-content: space-between;
+            align-items: flex-end;
+        
+        button{
+            margin: 6em;
+            align-items: center;
+        }
 
         li {
-            display: inline-block;
+            align-items: center;
             margin-right: 20px;
-
+            
+            
+            img{
+                height: 8em;
+            }
+            
             a {
                 text-decoration: none;
                 color: #fff;
