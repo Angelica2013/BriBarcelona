@@ -5,7 +5,7 @@
 }
 
 .menu {
-  background-color: #333;
+  background-color: #2B2B3E;
   padding: 15px 0;
 }
 .menu ul {
@@ -26,5 +26,11 @@
   transition: color 0.3s;
 }
 .menu ul li a:hover {
-  color: #ffcc00;
+  color: #00fff7;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: 171;
+  }
 }/*# sourceMappingURL=styles.css.map */

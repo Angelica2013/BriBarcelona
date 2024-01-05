@@ -6,7 +6,7 @@
 
 
 .menu {
-    background-color: #333;
+    background-color:#2B2B3E ;
     padding: 15px 0;
 
     ul {
@@ -27,9 +27,15 @@
                 transition: color 0.3s;
 
                 &:hover {
-                    color: #ffcc00;
+                    color: #00fff7;
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: red($color: #ab2c2c);
     }
 }
