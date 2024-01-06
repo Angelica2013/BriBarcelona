@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu {
@@ -86,12 +87,26 @@
   justify-content: center;
   align-items: center;
 }
+.footer .section-container .section .section2 h3 {
+  font-size: 25px;
+}
+.footer .section-container .section .section2 p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
 .footer .section-container .section .section3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 2em;
   gap: 15px;
+}
+.footer .section-container .section .section3 h3 {
+  font-size: 25px;
+}
+.footer .section-container .section .section3 p {
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 .footer .section-container .section .social-icons {
   font-size: 24px;
