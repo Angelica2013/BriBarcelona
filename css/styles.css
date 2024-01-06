@@ -60,7 +60,7 @@
   padding: 20px;
   height: 42em;
   margin-top: -7em;
-  background-image: url("../images/fondoBRI.jpg");
+  background-image: url("../images/fondo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -73,12 +73,12 @@
   padding-left: 7em;
 }
 .columna-texto h2 {
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 10px;
   color: #fff;
 }
 .columna-texto p {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
