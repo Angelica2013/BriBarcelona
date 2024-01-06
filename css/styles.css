@@ -6,7 +6,7 @@
 }
 
 .menu {
-  background: #2B2B3E;
+  background-color: transparent;
   height: 7em;
 }
 .menu ul {
@@ -59,6 +59,11 @@
   align-items: center;
   padding: 20px;
   height: 42em;
+  margin-top: -7em;
+  background-image: url("../images/fondoBRI.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .columna-texto {
@@ -70,10 +75,12 @@
 .columna-texto h2 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #fff;
 }
 .columna-texto p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: #fff;
 }
 .columna-texto button {
   margin: 3em 0em;
@@ -81,7 +88,7 @@
   border-radius: 15px;
   border-style: none;
   background: rgb(228, 158, 72);
-  background: linear-gradient(268deg, #00ABE3 0%, #2B2B3E 100%);
+  background: linear-gradient(268deg, rgb(234, 144, 82) 0%, rgb(0, 171, 227) 100%);
 }
 .columna-texto button a {
   color: #fff;
@@ -101,6 +108,7 @@
 .columna-imagen img {
   height: 27em;
   border-radius: 33px;
+  opacity: 0;
 }
 
 .footer {
