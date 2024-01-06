@@ -5,15 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+//variables
 $color-azul: #2B2B3E;
 $color-amarillo: #E49E48;
 $color-cielo: #00ABE3;
 
 
-
+//inicio del menu
 .menu {
     background: $color-azul;
-    
+    height: 7em;
 
 
 
@@ -70,9 +71,77 @@ $color-cielo: #00ABE3;
     }
 }
 
+// fin del menu
+
+//
+//inicio de la seccion principal
+
+.seccion-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 32em;
+}
+
+.columna-texto {
+    flex: 1;
+    max-width: 50%;
+    text-align: justify;
+    padding-left: 7em;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        margin: 3em 0em;
+        padding: 10px 35px 10px 35px;
+        border-radius: 15px;
+        border-style: none;
+        background: rgb(228, 158, 72);
+        background: linear-gradient(268deg, ($color-cielo) 0%, $color-azul 100%);
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
+
+.columna-imagen {
+    flex: 1;
+    max-width: 50%;
+    height: 28em;
+    position: absolute;
+    right: 3em;
+
+    img {
+        height: 27em;
+        border-radius: 33px;
+    }
+
+
+
+    /* Imagen referente al eslogan */
+}
+
+
+//fin de la seccion principal
+//
+
+//
 //Inicios de estilos del footer
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: $color-azul;
     color: #fff;
@@ -84,11 +153,12 @@ $color-cielo: #00ABE3;
         justify-content: space-around;
         margin-bottom: 20px;
 
-        .section1{
-            img{
+        .section1 {
+            img {
                 height: 12em;
             }
         }
+
         .section {
             flex: 1;
             max-width: 300px;
@@ -101,7 +171,8 @@ $color-cielo: #00ABE3;
             p {
                 font-size: 14px;
             }
-            .section2{
+
+            .section2 {
                 gap: 24px;
                 padding-top: 2em;
                 display: flex;
@@ -109,25 +180,28 @@ $color-cielo: #00ABE3;
                 justify-content: center;
                 align-items: center;
 
-                h3{
+                h3 {
                     font-size: 25px;
                 }
-                p{
+
+                p {
                     font-size: 18px;
                     letter-spacing: 1px;
                 }
             }
-            .section3{
+
+            .section3 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 margin-top: 2em;
                 gap: 15px;
 
-                h3{
+                h3 {
                     font-size: 25px;
                 }
-                p{
+
+                p {
                     font-size: 16px;
                     letter-spacing: 1px;
                 }
@@ -136,26 +210,28 @@ $color-cielo: #00ABE3;
             .social-icons {
                 font-size: 24px; // Ajusta el tamaño de los iconos según tus preferencias
                 margin-bottom: 10px;
-            
+
                 i {
-                  margin-right: 10px; // Espacio entre los iconos
+                    margin-right: 10px; // Espacio entre los iconos
                 }
-            
+
+            }
         }
+
+
     }
 
-    
-}
-.copyright {
-    background-color: $color-amarillo;
-    text-align: center;
-    font-size: 19px;
-    padding: 10px 0;
-    height: 2em;
-}
+    .copyright {
+        background-color: $color-amarillo;
+        text-align: center;
+        font-size: 19px;
+        padding: 10px 0;
+        height: 2em;
+    }
 
 
 
-//
+    //
 }
+
 //final de footer
